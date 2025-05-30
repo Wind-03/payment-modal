@@ -16,21 +16,21 @@ export default function Home() {
     style={{color:"#fff", backgroundColor:"#893340"}}
     >
      <div className="fixed inset-0 z-10 flex justify-center items-center">
-          <div className="bg-white/90 p-12 rounded-lg shadow-lg max-w-md mx-auto">
+          <div className="bg-white p-12 rounded-lg shadow-lg max-w-md mx-auto">
             <h2 className="text-xl font-bold mb-4">Payment Details</h2>
             <p className="mb-4">Please make your payment to the any of the following accounts:</p>
             <ul>
               <li className="mb-3 flex items-center justify-between">
-                <p>Bank: Moniepoint MFN</p>
+                <p><strong className="text-[#893340]">Bank</strong>: Moniepoint MFN</p>
                 <Icon  onClick={() => handleCopy(" Moniepoint MFN")} icon="line-md:clipboard" width="24" height="24"  style={{color: "#893340"}} />
               </li>
               <li className="mb-3 flex items-center justify-between">
-                <p>Account Number: 5876138104 </p>
-                <Icon  onClick={() => handleCopy(" 6875990836")} icon="line-md:clipboard" width="24" height="24"  style={{color: "#893340"}} />
+                <p><strong className="text-[#893340]">Account Number</strong>: 5876138104 </p>
+                <Icon  onClick={() => handleCopy(" 5876138104")} icon="line-md:clipboard" width="24" height="24"  style={{color: "#893340"}} />
               </li>
               <li className="mb-3 flex items-center justify-between">
-                <p>Account Name: Wine and Steak </p>
-                <Icon  onClick={() => handleCopy(" 6875990836")} icon="line-md:clipboard" width="24" height="24"  style={{color: "#893340"}} />
+                <p><strong className="text-[#893340]">Account Name</strong>:RedHorn Wine & Steak </p>
+                <Icon  onClick={() => handleCopy("Redhorn Wine & Steak")} icon="line-md:clipboard" width="24" height="24"  style={{color: "#893340"}} />
               </li>
             </ul>
             <div className="flex items-center justify-center my-8 w-[95%] gap-x-3 mx-auto">
@@ -40,16 +40,16 @@ export default function Home() {
             </div>
             <ul>
               <li className="mb-3 flex items-center justify-between">
-                <p>Bank: Z Money</p>
-                <Icon  onClick={() => handleCopy(" Moniepoint MFN")} icon="line-md:clipboard" width="24" height="24"  style={{color: "#893340"}} />
+                <p><strong className="text-[#893340]">Bank</strong>: Z Money</p>
+                <Icon  onClick={() => handleCopy("Z Money")} icon="line-md:clipboard" width="24" height="24"  style={{color: "#893340"}} />
               </li>
               <li className="mb-3 flex items-center justify-between">
-                <p>Account Number: 1295439496
+                <p><strong className="text-[#893340]">Account Number</strong>: 1295439496
                 </p>
-                <Icon  onClick={() => handleCopy(" 6875990836")} icon="line-md:clipboard" width="24" height="24"  style={{color: "#893340"}} />
+                <Icon  onClick={() => handleCopy("1295439496")} icon="line-md:clipboard" width="24" height="24"  style={{color: "#893340"}} />
               </li>
               <li className="mb-3 flex items-center justify-between">
-                <p>Account Name: Redhorn (Wine and Steak) </p>
+                <p><strong className="text-[#893340]">Account Name</strong>: RedHorn Wine & Steak </p>
                 <Icon  onClick={() => handleCopy(" 6875990836")} icon="line-md:clipboard" width="24" height="24"  style={{color: "#893340"}} />
               </li>
             </ul>
